@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+body{
+  .ga-maamli-regular {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+}
+.hero-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  color: white;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+h3{
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.cta-button {
+  background-color: #8E92EE;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #777adc;
+}
+
+img{
+  filter: 'blur(10px)',
+}
+
+.btn-1 {
+  background-color: #777adc;
+  color: #fff; 
+  padding: 12px 24px; 
+  border: none; 
+  border-radius: 8px;
+  font-size: 16px; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
